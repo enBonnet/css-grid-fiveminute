@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>5 Minutes of Css Grid</title>
+  <style>
+    .wrapper {
+      display: grid;
+      grid-template-columns: 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px;
+      text-align: center;
+      color: #ffffff;
+      font-size: 30px;
+    }
+
+    .wrapper .c1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      background: #ACF4B6;
+      margin: 2px;
+      border-radius: 5%;
+    }
+
+    .wrapper .c2 {
+      background: #FFE975;
+      margin: 2px;
+      border-radius: 5%;
+    }
+
+    .wrapper .c3 {
+      grid-row-start: 2;
+      grid-row-end: 4;
+      background: #5EFFFA;
+      margin: 2px;
+      border-radius: 5%;
+    }
+
+    .wrapper .c4 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      background: #E6B4FD;
+      margin: 2px;
+      border-radius: 5%;
+    }
+
+    .wrapper .c5 {
+      background: #8DFECD;
+      margin: 2px;
+      border-radius: 5%;
+    }
+
+    .wrapper .c6 {
+      background: #FD9A5C;
+      margin: 2px;
+      border-radius: 5%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="c1">1</div>
+    <div class="c2">2</div>
+    <div class="c3">3</div>
+    <div class="c4">4</div>
+    <div class="c5">5</div>
+    <div class="c6">6</div>
+  </div>
+</body>
+
+</html>
